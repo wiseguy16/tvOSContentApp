@@ -80,9 +80,6 @@ class FirstViewController: UIViewController, APIControllerProtocol, UICollection
 
 
     
-//    override var preferredFocusEnvironments: [UIFocusEnvironment] {
-//        return [collection1]
-//    }
     
     
     

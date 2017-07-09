@@ -205,28 +205,28 @@ class DevosViewController: UIViewController, CurrentSeriesAPIControllerProtocol,
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(downTimerAction1), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(downTimerAction1), userInfo: nil, repeats: true)
     }
     
     func startTimerButtonUpTapped() {
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(upTimerAction1), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(upTimerAction1), userInfo: nil, repeats: true)
     }
     
     func startTimerButtonDownTapped2() {
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(downTimerAction2), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(downTimerAction2), userInfo: nil, repeats: true)
     }
     
     func startTimerButtonUpTapped2() {
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(upTimerAction2), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(upTimerAction2), userInfo: nil, repeats: true)
     }
 
 

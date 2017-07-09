@@ -215,14 +215,14 @@ class ShareViewController: UIViewController, CurrentSeriesAPIControllerProtocol,
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(downTimerAction1), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(downTimerAction1), userInfo: nil, repeats: true)
     }
     
     func startTimerButtonUpTapped() {
         downTimer.invalidate() // just in case this button is tapped multiple times
         
         // start the timer
-        downTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(upTimerAction1), userInfo: nil, repeats: true)
+        downTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(upTimerAction1), userInfo: nil, repeats: true)
     }
     
     // called every time interval from the timer

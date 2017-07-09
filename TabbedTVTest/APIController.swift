@@ -32,9 +32,9 @@ class APIController
     
     let errorDomain = "VimeoClientErrorDomain"
     let baseURLString = "https://api.vimeo.com"
-    // let staffPicksPath = "/users/northlandchurch/albums/3730564/videos?per_page=15"
+
     // url might look like: "https://api.vimeo.com/users/northlandchurch/albums/3730564/videos?per_page=15"
-    let authToken = "37046b6bbce2064018367eaf61b60080"
+    let authToken = "<YOUR_AUTH_TOKEN>"
     
     
     

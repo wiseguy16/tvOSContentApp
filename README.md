@@ -10,5 +10,5 @@ Created using Swift 3.
 ![Live](https://github.com/wiseguy16/tvOSContentApp/blob/master/tv-live.png)
 ![Services](https://github.com/wiseguy16/tvOSContentApp/blob/master/tv-services.png)
 ![Sermons](https://github.com/wiseguy16/tvOSContentApp/blob/master/tv-sermons.png)
-![Sermons](https://github.com/wiseguy16/tvOSContentApp/blob/master/tv-songss.png)
+![Sermons](https://github.com/wiseguy16/tvOSContentApp/blob/master/tv-songs.png)
 

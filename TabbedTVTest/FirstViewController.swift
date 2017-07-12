@@ -294,10 +294,8 @@ class FirstViewController: UIViewController, APIControllerProtocol, UICollection
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        //return mediaItems.count
         
              return arrayOfVideos.count
-        
         
     }
     
@@ -399,17 +397,20 @@ class FirstViewController: UIViewController, APIControllerProtocol, UICollection
             downButton.alpha = 0
             scrollTextLabel.alpha = 0
             
-            
-            
             coordinator.addCoordinatedAnimations({
-                let duration : TimeInterval = UIView.inheritedAnimationDuration;
+                let duration : TimeInterval = UIView.inheritedAnimationDuration
                 UIView.animate(withDuration: (1.0 * duration), delay: 0.0, options: UIViewAnimationOptions.overrideInheritedDuration, animations: {
                     //add your animations
                     let title = aVid.name
                     let moreInfo = aVid.descript
-                    //                        self.fadeInLabelsWithFadeTime(using: [self.topLabel, self.bottomLabel], fadeTime: 1.0)
-                    self.topLabel.text = title
-                    self.bottomTextView.text = moreInfo
+                    
+                    //self.topLabel.text = title
+                    //self.bottomTextView.text = moreInfo
+                    self.topLabel.text = ""
+                    self.bottomTextView.text = ""
+
+                    
+                    
 //                    self.upButton.alpha = 1
 //                    self.downButton.alpha = 1
 //                    self.scrollTextLabel.alpha = 1
@@ -431,7 +432,14 @@ class FirstViewController: UIViewController, APIControllerProtocol, UICollection
                  }
                  */
             }, completion: { (true) in
-                UIView.animate(withDuration: 1.0, animations: {
+                UIView.animate(withDuration: 2.0, animations: {
+                    
+                    // New Code!!
+                    let title = aVid.name
+                    let moreInfo = aVid.descript
+                    self.topLabel.text = title
+                    self.bottomTextView.text = moreInfo
+
                     self.upButton.alpha = 1
                     self.downButton.alpha = 1
                     self.scrollTextLabel.alpha = 1

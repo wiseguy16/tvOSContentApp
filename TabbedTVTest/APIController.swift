@@ -34,7 +34,9 @@ class APIController
     let baseURLString = "https://api.vimeo.com"
 
     // url might look like: "https://api.vimeo.com/users/northlandchurch/albums/3730564/videos?per_page=15"
-    let authToken = "<YOUR_AUTH_TOKEN>"
+    let authToken5 = "<YOUR_AUTH_TOKEN>"
+    let authToken = "37046b6bbce2064018367eaf61b60080"
+
     
     
     

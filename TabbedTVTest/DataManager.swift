@@ -11,6 +11,7 @@ import UIKit
 
 class DataManager {
     
+    // SINGLETON for controlled data management
     static var sharedData = DataManager()
     
     var ySeries: SeriesItem!
@@ -23,10 +24,6 @@ class DataManager {
 
     
     var newWord = ""
-    
-    
-
-    
     
     
 }
